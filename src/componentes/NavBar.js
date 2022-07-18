@@ -10,12 +10,13 @@ import nintendoLogo from '../Complementos/Logos/nintendoLogo.webp'
 import pcLogo from '../Complementos/Logos/pcLogo.webp'
 import playLogo from '../Complementos/Logos/playLogo.webp'
 import exboxLogo from '../Complementos/Logos/exboxLogo.webp'
+import BotonCarro from './Carrito';
 
 function NavScrollExample() {
   return (
     <Navbar  bg="light" expand="lg">
       <Container id='barraNav' fluid>
-        <Navbar.Brand href="#">Carrito</Navbar.Brand>
+        <Navbar.Brand href="#"><BotonCarro /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
