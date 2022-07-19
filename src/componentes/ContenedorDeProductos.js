@@ -1,8 +1,11 @@
-
+import './ContenedorDeProductos.css'
 
 const ContenedorDeProductos = ({saludar})=>{
     return(
-        <h2>{saludar}</h2>
+        <div className="saludo__titulo">
+            <h2>{saludar}</h2>
+        </div>
+        
     )
 }
 
