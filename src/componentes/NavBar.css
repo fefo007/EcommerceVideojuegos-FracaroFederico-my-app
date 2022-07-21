@@ -1,3 +1,4 @@
 
 #barraNav {background-color:aquamarine;}
 #navbarScrollingDropdown{background-color: aqua;}
+.navbar{grid-column:1/5 ;}

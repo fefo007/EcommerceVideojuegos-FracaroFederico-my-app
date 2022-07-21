@@ -14,7 +14,7 @@ import BotonCarro from './Carrito';
 
 function NavScrollExample() {
   return (
-    <Navbar  bg="light" expand="lg">
+    <Navbar className='navbar' bg="light" expand="lg">
       <Container id='barraNav' fluid>
         <Navbar.Brand href="#"><BotonCarro /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
