@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import './Contador.css';
 
-export default function App() {
+function Contador() {
     const [count, setCount] = useState(0);
 
     let countSuma = () => {
@@ -26,3 +26,5 @@ export default function App() {
         </div>
     );
 }
+
+export default Contador
